@@ -2,8 +2,8 @@
 
 ## Getting Started
 
-Run the following:
-cd CriblAssignment
+Run the following:  
+cd assignment  
 npm install --save-dev
 
 

@@ -2,10 +2,8 @@
 
 ## Getting Started
 
-Download the assignment from GitHub https://github.com/SofiaJorgji/assignment.
-
 Run the following:
-cd assignment
+cd CriblAssignment
 npm install --save-dev
 
 

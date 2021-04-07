@@ -1,0 +1,16 @@
+{
+	"name": "testsuite",
+	"version": "1.0.0",
+	"description": "Cribl app tests",
+	"main": "installer.js ",
+	"scripts": {
+		"test": "mocha"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"chai": "^4.3.0",
+		"mocha": "^8.3.0",
+		"shelljs": "^0.8.4"
+	}
+}

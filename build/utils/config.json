@@ -1,0 +1,39 @@
+{
+	"agent": {
+		"inputs": {
+   				 "monitor": "inputs/large_1M_events.log"
+		},
+		"outputs": {
+   					 "tcp": {
+       					 "host": "splitter",
+       					 "port": 9997
+    				}
+		}	
+
+	},
+	"splitter": {
+		"inputs": {
+ 			   "tcp": 9997
+		},
+		"outputs": {
+   			 "tcp": [
+        		{
+            		"host": "target_1",
+            		"port": 9997
+        		},
+        		{
+            		"host": "target_2",
+            		"port": 9997
+        		}
+    		]
+		}
+	},
+	"target": {
+		"inputs": {
+			    "tcp": 9997
+		},
+		"outputs": {
+    			"file": "events.log"
+		}
+	}
+}

@@ -11,7 +11,7 @@ npm install --save-dev
 
 Node version 12 or higher  
 npm  version 6  
-Docker version 20
+Docker version 20 is installed and running  
 
 
 ## Running the tests
